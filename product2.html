@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="An E-commerece market place">
+    <title>Que-zee</title>
+    <!-- Font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   <!-- nav bar starts here -->
+   <i class="fas fa-bars fa-2x" id="menu-icon"></i>
+   <nav id="menu" class="hidden">
+    <!-- Upper nav bar start here -->
+    <ul class="nav-upper flex-space-around">
+        <li class="nav-list">
+            <a href="index.html" class="nav-link">Home</a>
+        </li>
+        <li class="nav-list">
+            <a href="register.html" class="nav-link">Register</a>
+        </li>
+        <li class="nav-list">
+            <a href="login.html" class="nav-link">Log In</a>
+        </li>
+        <li class="nav-list">
+            <a href="index.html" class="nav-link">Log Out</a>
+        </li>
+        <li class="nav-list">
+            <a href="contact.html" class="nav-link">Contact</a>
+        </li>
+        <li class="nav-list">
+            <a href="profile.html" class="nav-link">
+                <img class="profile-icon" src="images/profile.png" alt="Profile icon">
+            </a>
+        </li>
+    </ul>
+    <!-- Upper nav bar ends here -->
+    <!-- Lower nav bar start here  -->
+    <ul class="nav-lower flex-space-around">
+        <li class="nav-list">
+            <a href="index.html" class="nav-brand nav-link">Que-zee</a>
+        </li>
+        <li class="nav-list">
+            <a href="cart.html" class="nav-link">
+                <span><i class="fa-solid fa-cart-plus"></i>
+                </span>
+                Cart 2 Products - $125.40
+            </a>
+        </li>
+    </ul>
+    <!-- Lower nav bar ends here -->
+   </nav>
+   <!-- nav bar ends here -->
+   <main class="flex-center">
+    <div class="main-content">
+        <section class="product-details flex-center">
+            <div class="product-details-left flex-center">
+                <img src="images/product2.avif" alt="Product one">
+            </div>
+            <div class="product-details-right">
+                <h3 class="product-name">Natural Facewash</h3>
+                <p>
+                    <span class="dot green"></span>
+                    <span class="dot black"></span>
+                    <span class="dot red"></span>
+                </p>
+                <p class="product-description">
+                    <strong>Description</strong>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi, assumenda voluptatibus, repudiandae minima cupiditate facere numquam voluptate esse quaerat sit iusto maiores eos deleniti adipisci, velit rem nulla libero optio veritatis reiciendis consequuntur sunt quisquam?
+                </p>
+                <p class="product-description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam iure magni blanditiis delectus laboriosam. Dolorem dicta veniam, tempora quia nostrum, quas, architecto harum adipisci id quis vitae eius quod enim voluptatibus aspernatur possimus est maiores.
+                </p>
+                <p class="product-description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam iure magni blanditiis delectus laboriosam. Dolorem dicta veniam, tempora quia nostrum, quas, architecto harum adipisci id quis vitae eius quod enim voluptatibus aspernatur possimus est maiores.
+                </p>
+                <h4 class="product-category">Beauty Care</h4>
+                <h4 class="product-price">Price: $200.00</h4>
+                <p class="product-rating">Rating: 4.7/5</p>
+                <button class="btn product-btn">Add to cart</button>
+                <button class="btn product-btn">Back To Shopping</button>
+            </div>
+        </section>
+    </div>
+   </main>
+   <!-- Footer starts here -->
+   <footer class="flex-space-around">
+    <div id="left-footer" class="flex-space-around">
+        <label for="subscribe">Subscribe to Newsletter</label>
+        <input type="email" id="subscribe" name="subscribe" class="footer-input" placeholder="Your Email Address">
+        <button class="button-subs btn">Subscribe</button>
+    </div>
+    <div>
+        <p>Copyright 2023 Que-zee. All rights reserved</p>
+    </div>
+   </footer>
+   <!-- Footer ends here -->
+   <script src="script/script.js"></script>
+</body>
+</html>

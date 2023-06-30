@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="An E-commerece market place">
+    <meta name="keywords" content="online shopping, online marketing, online price, sr jibon">
+    <meta name="author" content="MD Saydur Rahman">
+    <title>Que-zee</title>
+    <!-- Font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Taviraj:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ysabeau+SC:wght@1;100;200;300;400;500;600;700;800;900;1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   <!-- nav bar starts here -->
+   <i class="fas fa-bars fa-2x" id="menu-icon"></i>
+   <nav id="menu" class="hidden">
+    <!-- Upper nav bar start here -->
+    <ul class="nav-upper flex-space-around">
+        <li class="nav-list">
+            <a href="index.html" class="nav-link">Home</a>
+        </li>
+        <li class="nav-list">
+            <a href="register.html" class="nav-link">Register</a>
+        </li>
+        <li class="nav-list">
+            <a href="login.html" class="nav-link">Log In</a>
+        </li>
+        <li class="nav-list">
+            <a href="index.html" class="nav-link">Log Out</a>
+        </li>
+        <li class="nav-list">
+            <a href="contact.html" class="nav-link">Contact</a>
+        </li>
+        <li class="nav-list">
+            <a href="profile.html" class="nav-link">
+                <img class="profile-icon" src="images/profile.png" alt="Profile icon">
+            </a>
+        </li>
+    </ul>
+    <!-- Upper nav bar ends here -->
+    <!-- Lower nav bar start here  -->
+    <ul class="nav-lower flex-space-around">
+        <li class="nav-list">
+            <a href="index.html" class="nav-brand nav-link">Que-zee</a>
+        </li>
+        <li class="nav-list">
+            <a href="cart.html" class="nav-link">
+                <span><i class="fa-solid fa-cart-plus"></i>
+                </span>
+                Cart 2 Products - $125.40
+            </a>
+        </li>
+    </ul>
+    <!-- Lower nav bar ends here -->
+   </nav>
+   <!-- nav bar ends here -->
+   <!-- header starts here -->
+   <header class="header">
+    <div class="banner flex-space-around">
+        <marquee class="banner-title" behavior="" direction="ltr">
+            50% sales going on
+        </marquee>
+        <div class="features flex-space-around">
+            <article class="feature flex-center">
+                <i class="fa-solid fa-truck feature-icon "></i>
+                <h3>Shipping within 3days</h3>
+            </article>
+            <article class="feature flex-center">
+                <i class="fa-solid fab fa-rocketchat feature-icon "></i>
+                <h3>Support 24/7</h3>
+            </article>
+            <article class="feature flex-center">
+                <i class="fa-solid far fa-credit-card feature-icon "></i>
+                <h3>Safe Payment</h3>
+            </article>
+        </div>
+    </div>
+   </header>
+   <!-- header ends here -->
+   <main class="flex-center">
+    <div class="sidebar">
+        <section class="categories">
+            <h3 class="section-title">
+                Categories
+            </h3>
+            <ul class="list">
+                <li class="list-item">
+                    <label for="phone">
+                        <input type="checkbox" name="phone" id="phone" value="Phone">
+                        Phone
+                    </label>
+                </li>
+                <li class="list-item">
+                    <label for="tablets">
+                        <input type="checkbox" name="tablets" id="tablets" value="Tablet">
+                        Tablet
+                    </label>
+                </li>
+                <li class="list-item">
+                    <label for="tv">
+                        <input type="checkbox" name="tv" id="tv" value="Television">
+                        Television
+                    </label>
+                </li>
+                <li class="list-item">
+                    <label for="computer">
+                        <input type="checkbox" name="computer" id="computer" value="Computer">
+                        Computer
+                    </label>
+                </li>
+                <li class="list-item">
+                    <label for="headphone">
+                        <input type="checkbox" name="headphone" id="headphone" value="Headphone">
+                        Headphone
+                    </label>
+                </li>
+            </ul>
+        </section>
+
+        <section class="prices">
+            <h3 class="section-title">
+                Price Range
+            </h3>
+            <ul class="list">
+                <li class="list-item">
+                    <label for="price1">
+                        <input type="radio" name="price" id="price1" value="[0,20]">
+                        $0-$20
+                    </label>
+                </li>
+                <li class="list-item">
+                    <label for="price2">
+                        <input type="radio" name="price" id="price2" value="[21,50]">
+                        $21-$50
+                    </label>
+                </li>
+                <li class="list-item">
+                    <label for="price3">
+                        <input type="radio" name="price" id="price3" value="[51,100]">
+                        $51-$100
+                    </label>
+                </li>
+                <li class="list-item">
+                    <label for="price4">
+                        <input type="radio" name="price" id="price4" value="[101,500]">
+                        $101-$500
+                    </label>
+                </li>
+                <li class="list-item">
+                    <label for="price5">
+                        <input type="radio" name="price" id="price5" value="[501+]">
+                        $501+
+                    </label>
+                </li>
+            </ul>
+        </section>
+        <section class="shipping">
+            <h3 class="section-title">
+                Shippimg Options
+            </h3>
+            <ul class="list">
+                <li class="list-item">
+                    <label for="free">
+                        <input type="radio" name="shipping" id="free" value="free">
+                        Free
+                    </label>
+                </li>
+                <li class="list-item">
+                    <label for="paid">
+                        <input type="radio" name="shipping" id="paid" value="paid">
+                        Paid
+                    </label>
+                </li>
+            </ul>
+        </section>
+    </div>
+    <div class="main-content">
+       <section class="actions flex-space-around">
+        <div class="actions-sort">
+            <label for="sort">Sort By</label>
+            <select name="sort" id="sort">
+                <option value="sold">Most sold first</option>
+                <option value="rating">Most rating first</option>
+                <option value="price">Cheapest first</option>
+                <option value="arrival">Newest first</option>
+                <option value="discount">Biggest Discount first</option>
+            </select>
+        </div>
+        <div class="actions-search">
+            <input type="text" placeholder="Seach Products">
+            <button class="btn">
+                <i class="fa-sharp fa-solid fa-magnifying-glass">
+                </i>
+            </button>
+        </div>
+       </section>
+       <!-- Product section starts here -->
+       <section class="products">
+        <article class="product card">
+            <div class="badge">
+                <span>5 in stock</span>
+                <hr class="hrdesign">
+                <span>3 sold</span>
+            </div>
+            <img src="images/product1.avif" alt="Product one" class="product-image">
+            <div class="products-body">
+                <h3 class="product-name">Natural Facewash</h3>
+                <p>
+                    <span class="dot green"></span>
+                    <span class="dot black"></span>
+                    <span class="dot red"></span>
+                </p>
+                <p class="product-description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem ratione molestiae illum id, error quia.... 
+                    <a href="product1.html" class="learn-more">learn more</a>
+                </p>
+                <h4 class="product-price">$225.00</h4>
+                <p class="product-rating">Rating: 4.5/5</p>
+                <button class="btn product-btn">Add to cart</button>
+            </div>
+        </article>
+
+        <article class="product card">
+            <div class="badge">
+                <span>2 in stock</span>
+                <hr class="hrdesign">
+                <span>9 sold</span>
+            </div>
+            <img src="images/product2.avif" alt="Product two" class="product-image">
+            <div class="products-body">
+                <h3 class="product-name">Natural Facewash</h3>
+                <p>
+                    <span class="dot green"></span>
+                    <span class="dot black"></span>
+                    <span class="dot red"></span>
+                </p>
+                <p class="product-description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem ratione molestiae illum id, error quia.... 
+                    <a href="product2.html" class="learn-more">learn more</a>
+                </p>
+                <h4 class="product-price">$205.00</h4>
+                <p class="product-rating">Rating: 4.2/5</p>
+                <button class="btn product-btn">Add to cart</button>
+            </div>
+        </article>
+
+        <article class="product card">
+            <div class="badge">
+                <span>10 in stock</span>
+                <hr class="hrdesign">
+                <span>15 sold</span>
+            </div>
+            <img src="images/product3.avif" alt="Product three" class="product-image">
+            <div class="products-body">
+                <h3 class="product-name">Natural Facewash</h3>
+                <p>
+                    <span class="dot green"></span>
+                    <span class="dot black"></span>
+                    <span class="dot red"></span>
+                </p>
+                <p class="product-description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem ratione molestiae illum id, error quia.... 
+                    <a href="product3.html" class="learn-more">learn more</a>
+                </p>
+                <h4 class="product-price">$200.00</h4>
+                <p class="product-rating">Rating: 4.7/5</p>
+                <button class="btn product-btn">Add to cart</button>
+            </div>
+        </article>
+
+        <article class="product card">
+            <div class="badge">
+                <span>5 in stock</span>
+                <hr class="hrdesign">
+                <span>3 sold</span>
+            </div>
+            <img src="images/product4.avif" alt="Product four" class="product-image">
+            <div class="products-body">
+                <h3 class="product-name">Natural Facewash</h3>
+                <p>
+                    <span class="dot green"></span>
+                    <span class="dot black"></span>
+                    <span class="dot red"></span>
+                </p>
+                <p class="product-description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem ratione molestiae illum id, error quia.... 
+                    <a href="product4.html" class="learn-more">learn more</a>
+                </p>
+                <h4 class="product-price">$225.00</h4>
+                <p class="product-rating">Rating: 4.5/5</p>
+                <button class="btn product-btn">Add to cart</button>
+            </div>
+        </article>
+
+        <article class="product card">
+            <div class="badge">
+                <span>2 in stock</span>
+                <hr class="hrdesign">
+                <span>9 sold</span>
+            </div>
+            <img src="images/product5.avif" alt="Product five" class="product-image">
+            <div class="products-body">
+                <h3 class="product-name">Natural Facewash</h3>
+                <p>
+                    <span class="dot green"></span>
+                    <span class="dot black"></span>
+                    <span class="dot red"></span>
+                </p>
+                <p class="product-description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem ratione molestiae illum id, error quia.... 
+                    <a href="product5.html" class="learn-more">learn more</a>
+                </p>
+                <h4 class="product-price">$205.00</h4>
+                <p class="product-rating">Rating: 4.2/5</p>
+                <button class="btn product-btn">Add to cart</button>
+            </div>
+        </article>
+
+        <article class="product card">
+            <div class="badge">
+                <span>10 in stock</span>
+                <hr class="hrdesign">
+                <span>15 sold</span>
+            </div>
+            <img src="images/product6.avif" alt="Product six" class="product-image">
+            <div class="products-body">
+                <h3 class="product-name">Natural Facewash</h3>
+                <p>
+                    <span class="dot green"></span>
+                    <span class="dot black"></span>
+                    <span class="dot red"></span>
+                </p>
+                <p class="product-description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem ratione molestiae illum id, error quia.... 
+                    <a href="product6.html" class="learn-more">learn more</a>
+                </p>
+                <h4 class="product-price">$200.00</h4>
+                <p class="product-rating">Rating: 4.7/5</p>
+                <button class="btn product-btn">Add to cart</button>
+            </div>
+        </article>
+       </section>
+       <div class="pagination">
+        <button class="btn pagination-btn">
+            <i class="fas fas fa-less-than"></i>
+        </button>
+        <button class="btn pagination-btn">2</button>
+        <button class="btn pagination-btn">3</button>
+        <button class="btn pagination-btn">4</button>
+        <button class="btn pagination-btn">5</button>
+        <button class="btn pagination-btn">6</button>
+        <button class="btn pagination-btn">7</button>
+        <button class="btn pagination-btn">8</button>
+        <button class="btn pagination-btn">9</button>
+        <button class="btn pagination-btn">10</button>
+        <button class="btn pagination-btn">...</button>
+        <button class="btn pagination-btn">50</button>
+        <button class="btn pagination-btn">
+            <i class="fas fas fa-greater-than"></i>
+        </button>
+       </div>
+       <!-- Product section ends here -->
+    </div>
+   </main>
+   <!-- Footer starts here -->
+   <footer class="flex-space-around">
+    <div id="left-footer" class="flex-space-around">
+        <label for="subscribe">Subscribe to Newsletter</label>
+        <input type="email" id="subscribe" name="subscribe" class="footer-input" placeholder="Your Email Address">
+        <button class="button-subs btn">Subscribe</button>
+    </div>
+    <div>
+        <p>Copyright 2023 Que-zee. All rights reserved</p>
+    </div>
+   </footer>
+   <!-- Footer ends here -->
+   <script src="script/script.js"></script>
+</body>
+</html>
